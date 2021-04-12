@@ -1,4 +1,4 @@
-package com.YakimenkoPZ;
+package com.yakimenkopz;
 
 import java.util.Scanner;
 

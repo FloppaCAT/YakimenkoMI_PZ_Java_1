@@ -1,7 +1,5 @@
-package com.YakimenkoPZ;
+package com.yakimenkopz;
 
-import java.sql.SQLOutput;
-import java.util.Arrays;
 
 public class YakimenkoPZ_3 {
     public static void main(String[] args) {

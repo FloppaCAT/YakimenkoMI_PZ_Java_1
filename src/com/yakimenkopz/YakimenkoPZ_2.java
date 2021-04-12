@@ -1,4 +1,4 @@
-package com.YakimenkoPZ;
+package com.yakimenkopz;
 
 public class YakimenkoPZ_2 {
     public static void main(String[] args) {
