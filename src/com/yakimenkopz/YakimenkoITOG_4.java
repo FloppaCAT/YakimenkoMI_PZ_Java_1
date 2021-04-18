@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class YakimenkoITOG_4 {
     public static void main(String args [ ])
     {
-        System.out.println("Напишите ответ на загадку: \"Сидит дед, во сто шуб одет, кто его раздевает, тот слезы проливает\"");
+        System.out.println("Напишите ответ на загадку: \"Сидит дед, во сто шуб одет, кто его раздевает, тот слезы проливает\"" +
+                ""+"\n"+"У вас есть подсказа. Для использования, введите \"Подсказка\"");
         String str1;
         int count = 0;
-        int HelpCount = 0;
         Scanner scan1 = new Scanner(System.in);
         for (int i=0;i<3;i++){
             System.out.print("Ответ: ");
@@ -18,7 +18,7 @@ public class YakimenkoITOG_4 {
                 break;
             } else if (str1.equalsIgnoreCase("подсказка")){
                 if (i>0){
-                    System.out.println("Подсказка больше не доступна");
+                    System.out.println("Подсказка уже недоступна");
                     i--;
                 } else {
                     count++;
